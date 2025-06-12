@@ -1,0 +1,35 @@
+h1 {
+    color: white;
+    text-shadow:
+      0px 0px 25px pink,
+      0px 0px 25px pink;
+}
+
+h2.Thema {
+    color: rgb(136, 188, 255);
+    background: linear-gradient(to right bottom, rgb(185, 234, 253), 30%, white);    
+}
+
+h2.project {
+    color: white;
+    background: linear-gradient(to right, red, orange 15%, yellow 30%, green 45%, blue 60%, indigo 75%, purple);
+}
+
+h2.kazuate {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 100, 100), white);    
+}
+
+h2.gakusyu {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 100, 100), white);
+}
+
+h3 {
+    color: rgb(49, 52, 224);
+    background: linear-gradient(to right, rgb(198, 142, 235), white);    
+}
+
+p.info {
+    background-color: #dfdfdf;
+}
