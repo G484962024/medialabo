@@ -1,0 +1,11 @@
+html.background {
+    background: linear-gradient(to right bottom, rgb(143, 233, 255), white);
+}
+
+h1 {
+    color: hotpink;
+}
+
+li {
+    color: rgb(255, 82, 82);
+}
