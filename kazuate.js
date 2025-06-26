@@ -30,8 +30,6 @@ function hantei() {
 
   k.textContent = kaisu;
 
-  console.log(kaisu + '回目の予想: ' + yoso);
-
   if (kaisu >= 4 || seikai === 1) {
     reply.textContent = '答えは ' + kotae + ' でした．すでにゲームは終わっています';
   }
