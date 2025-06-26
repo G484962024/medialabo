@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to right bottom, white, rgb(255, 140, 232));
+}
+
 h1 {
     color: white;
     text-shadow:
@@ -36,4 +40,8 @@ p.info {
 
 p.nyuryoku {
     background-color: #fde078;
+}
+
+p.link {
+    background-color: rgb(168, 229, 252);
 }
