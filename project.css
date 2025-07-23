@@ -1,11 +1,28 @@
 body {
-    background: linear-gradient(to right bottom, rgb(143, 233, 255), white);
+    background: rgb(167, 249, 172);
+    /*linear-gradient(to right bottom, rgb(167, 249, 172), white);*/
+    color: white;
 }
 
 h1 {
-    color: hotpink;
+    background:  rgb(67, 123, 255);
+    /*color: hotpink;*/
 }
 
-li {
-    color: rgb(255, 82, 82);
+p {
+    background: white;
+    color: black;
+}
+
+h2 {
+    background:  #ababab;
+}
+ul {
+    background:  rgb(255, 190, 50);
+    color: black;
+}
+
+li#name {
+    background:  linear-gradient(to right, rgb(154, 113, 248), rgb(87, 75, 254));
+    color: white;
 }

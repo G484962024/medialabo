@@ -3,23 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     <link rel="stylesheet" href="project.css">
-    <script src="weather.js" defer></script>
+    <script src="gourmet.js" defer></script>
   </head>
   <body>
-    <h1>世界の天気</h1>
-    <h2>検索結果が1件あります</h2>
-    <ul>
-        <li>経度: 116.3972</li>
-        <li>緯度: 39.9075</li>
-        <li>天気: 曇りがち</li>
-        <li>最低気温: 9.94</li>
-        <li>最高気温: 9.94</li>
-        <li>湿度: 14</li>
-        <li>風速: 2.65</li>
-        <li>風向: 197</li>
-        <li>都市名: 北京市</li>
-    </ul>
+    <h1>グルメ情報</h1>
+    <p id="search">
+      G001〜G017の検索キーワードを入力：
+      <input type="text" name="keyword" id="keyword" size="15">
+      <button id="sendRequest">検索</button>
+    </p>
+    <div id = "result"></div>
   </body>
 </html>
 <a href="index.html" 
