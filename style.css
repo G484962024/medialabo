@@ -45,3 +45,11 @@ p.nyuryoku {
 p.link {
     background-color: rgb(168, 229, 252);
 }
+
+a:link {
+  color: skyblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
