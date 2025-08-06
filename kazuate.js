@@ -34,7 +34,7 @@ function hantei() {
     reply.textContent = '答えは ' + kotae + ' でした．すでにゲームは終わっています';
   }
   if (yoso === kotae && seikai === 0) {
-    console.log('正解です．おめでとう!');
+    reply.textContent = '正解です．おめでとう!';
     seikai = 1;
   }
   if (kaisu === 3 && seikai === 0) {
